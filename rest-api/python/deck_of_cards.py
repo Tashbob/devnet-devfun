@@ -36,5 +36,8 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 
 print(response.text)
 deck = response.json()
+print(deck)
 deck_id = deck['deck_id']
 print(deck_id)
+
+
