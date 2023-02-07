@@ -55,8 +55,10 @@ def create_dive_finds(number_dives):
     # TODO: Create a message telling a scuba diver what they found by 
     # calling generate_find() and calculate_number_items() and 
     # then composing and returning the message and numbers.
+    
+    print('in ',number_dives,' dives, you found ',calculate_number_items(number_dives),generate_find())
 
-    raise NotImplementedError()
+    #raise NotImplementedError()
 
 
 def main():
