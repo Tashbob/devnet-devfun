@@ -35,4 +35,7 @@ headers = {
 response = requests.request("GET", url, headers=headers, params=querystring)
 
 print(response.text)
-# Get the deck_id from the returned JSON 
+print(deck_id)
+
+
+>>>>>>> origin
